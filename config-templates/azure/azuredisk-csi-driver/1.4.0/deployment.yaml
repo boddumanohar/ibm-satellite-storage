@@ -18,7 +18,7 @@ items:
           "aadClientSecret": "byF32zyc0-LcmjoKN3dPXoAvcAD48M.J9X",
           "resourceGroup": "storage-team",
           "location": "eastus",
-          "vmType": "vmss",
+          "vmType": "standard",
           "subnetName": "default",
           "securityGroupName": "sat-sec-grp",
           "vnetName": "storage-team-vnet",
