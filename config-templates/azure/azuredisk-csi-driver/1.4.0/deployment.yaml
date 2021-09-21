@@ -8,7 +8,7 @@ metadata:
     version: 1.4.0
 items:
   - apiVersion: v1
-    data:
+    stringData:
       cloud-config: |
           "cloud":"AzurePublicCloud",
           "tenantId": "fcf67057-50c9-4ad4-98f3-ffca64add9e9",
