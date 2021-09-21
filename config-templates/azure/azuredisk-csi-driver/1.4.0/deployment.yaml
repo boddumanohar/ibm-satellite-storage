@@ -10,6 +10,7 @@ items:
   - apiVersion: v1
     stringData:
       cloud-config: |
+        {
           "cloud":"AzurePublicCloud",
           "tenantId": "fcf67057-50c9-4ad4-98f3-ffca64add9e9",
           "subscriptionId": "42a27881-f23d-49bc-abfa-375e323fe957",
@@ -21,6 +22,7 @@ items:
           "subnetName": "default",
           "securityGroupName": "sat-sec-grp",
           "vnetName": "storage-team-vnet",
+        }
     kind: Secret
     metadata:
       name: azure-cloud-provider
